@@ -1,10 +1,6 @@
 import streamlit as st
 import os
 import sys
-baseName = os.path.basename(__file__)
-dirName = os.path.dirname(__file__)
-sys.path.append(dirName + r'/../..')
-
 from PIL import Image
 from RFEM.enums import *
 from RFEM.initModel import client, Model
