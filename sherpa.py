@@ -1,9 +1,9 @@
 import streamlit as st
 from PIL import Image
-from RFEM.enums import *
-from RFEM.initModel import client, Model
-from RFEM.Tools.GetObjectNumbersByType import GetObjectNumbersByType
-from RFEM.Results.resultTables import ResultTables, GetMaxValue
+# from RFEM.enums import *
+# from RFEM.initModel import client, Model
+# from RFEM.Tools.GetObjectNumbersByType import GetObjectNumbersByType
+# from RFEM.Results.resultTables import ResultTables, GetMaxValue
 
 st.set_page_config("Sherpa Integration", layout="wide")
 st.title('Sherpa Integration')
